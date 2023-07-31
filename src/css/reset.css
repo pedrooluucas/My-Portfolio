@@ -1,4 +1,3 @@
-/* Estilização Geral */
 
 *{
     margin: 0;
@@ -7,15 +6,5 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style-type: none;
-}
-
-body{
-    background-color: #000;
-    height: 100vh;
-}
-
-.interface {
-    max-width: 1280px;
-    margin: 0 auto;
 }
 
