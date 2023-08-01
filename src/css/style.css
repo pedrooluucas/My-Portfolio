@@ -24,6 +24,16 @@ body{
     cursor: pointer;
 }
 
+h2.titulo{
+    color: aliceblue;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #483d8b;
+}
+
 /* Estilização do Cabeçalho */
 
 header {
@@ -60,7 +70,7 @@ header nav ul li{
 /* Estilização do Topo do  Site */
 
 section.topo-do-site {
-    padding: 230px 4%;
+    padding: 230px 4%;   /* Colocar depois 230px*/
 }
 
 section.topo-do-site .flex{
@@ -99,4 +109,42 @@ section.topo-do-site .flex{
     100%{
         top: 30px;
     }
+}
+
+/* Estilização da Especialidades */
+
+section.especialidades {
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box{
+    color: aliceblue;
+    padding: 40px;
+    font-size: 38px;
+    margin: 70px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff78;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: #483d8b;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.especialidades .especialidades-box p{
+    font-size: 27px;
 }
