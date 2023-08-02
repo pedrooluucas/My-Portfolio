@@ -34,6 +34,11 @@ h2.titulo span{
     color: #483d8b;
 }
 
+button:hover {
+    box-shadow: 0px 0px 8px #483d8b;
+    transform: scale(1.05);
+}
+
 /* Estilização do Cabeçalho */
 
 header {
@@ -60,11 +65,6 @@ header nav ul li{
     display: inline-block;
     padding: 0 40px;
     font-size: 20px;
-}
-
-.btn-contato button:hover {
-    box-shadow: 0px 0px 8px #483d8b;
-    transform: scale(1.05);
 }
 
 /* Estilização do Topo do  Site */
@@ -115,20 +115,22 @@ section.topo-do-site .flex{
 
 section.especialidades {
     padding: 40px 4%;
+    background-color: #0a0a0a;
 }
 
 section.especialidades .flex{
+    align-items: center;
     gap: 60px;
 }
 
 .especialidades .especialidades-box{
     color: aliceblue;
-    padding: 40px;
-    font-size: 38px;
+    padding: 40px; 
     margin: 70px;
     border-radius: 20px;
     transition: .2s;
 }
+
 
 .especialidades .especialidades-box:hover{
     transform: scale(1.05);
@@ -147,4 +149,63 @@ section.especialidades .flex{
 
 .especialidades .especialidades-box p{
     font-size: 27px;
+} 
+
+/* Estilização do Sobre */
+
+section.sobre{
+    padding: 230px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .img-sobre img{
+    border-radius: 10%;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.sobre .img-sobre img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #483d8b;
+}
+
+.sobre .txt-sobre{
+    color: aliceblue;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #483d8b;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.sobre .txt-sobre p span{
+    color: #483d8b;
+}
+
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #483d8b;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
 }
